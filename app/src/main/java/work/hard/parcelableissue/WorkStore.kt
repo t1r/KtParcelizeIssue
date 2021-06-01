@@ -1,5 +1,6 @@
 package work.hard.parcelableissue
 
+import android.os.Parcelable
 import work.hard.parcelableissue.WorkStore.*
 
 interface WorkStore : Store<Intent, State, Label> {
